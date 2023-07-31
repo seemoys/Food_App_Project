@@ -42,7 +42,7 @@ const Header = () => {
                 {cartItems.length}
               </span>
               <FontAwesomeIcon
-                className=" "
+                className=""
                 icon={faShoppingCart}
                 shake
                 size="2xl"

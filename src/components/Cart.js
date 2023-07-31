@@ -53,7 +53,7 @@ const Cart = () => {
       <h1 className="text-3xl font-bold">
         Cart Item's -<span>{cartItems.length}</span>
       </h1>
-      <p className="text-3xl font-bold font-mono text-cyan-500">
+      <p className="md:text-3xl text-xl font-bold font-mono text-cyan-500">
         Total Amount-{totalAmount} <span>&#8377;</span>
       </p>
       <div className="flex gap-5 p-5 ml-2 mr-2">
