@@ -92,7 +92,7 @@ const Body = () => {
         {allRestaurants?.length === 0 ? (
           <Shimmer />
         ) : (
-          <div className="shadow-2xl shadow-indigo-300 rounded-2xl flex flex-wrap justify-center gap-10 mt-2 mb-28 md:ml-20 md:mr-20">
+          <div className="border-l-2 border-r-2 rounded-2xl flex flex-wrap justify-center gap-10 mt-2 mb-28 md:ml-20 md:mr-20">
             {filteredRestaurants.map((restaurant) => {
               return (
                 <Link

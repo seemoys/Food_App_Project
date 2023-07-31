@@ -33,11 +33,11 @@ const Header = () => {
           </a>
         </div>
         <div>
-          <p className="ml-1 md:mt-4 text-green-700 text-xl">
+          <p className="ml-1 mt-5 md:mt-4 text-green-700 text-xl">
             {user.name ? `Hello ${user.name} !!!` : "Please Login !!!"}
           </p>
           <li className="list-none">
-            <Link to="/cart" className="md:hidden relative bottom-16 left-36 ">
+            <Link to="/cart" className="md:hidden relative bottom-20 left-36 ">
               <span className="text-black font-serif text-2xl">
                 {cartItems.length}
               </span>
